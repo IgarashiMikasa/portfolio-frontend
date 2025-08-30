@@ -1,0 +1,16 @@
+.custom-hover {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+}
+
+.custom-hover:hover {
+  border-color: #007bff;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
